@@ -59,9 +59,23 @@
 //}
 
 //const keyword
-const a=2;
+//const a=2;
 //na hi redelear kar sakte hai na hi reinitialize
 //const a=5;
-a=4;
+//a=4;//TypeError: Assignment to constant variable.
+//for (var i=0;i<10;i++){
+//  if(i%2==0){
+//       console.log(i);   
+//   }
+//}
+//console.log("value is "+i)
+//but let keyword is block scoped the value of i is only valid inside the block but in var i is valid outside the block also.
+//var is global scoped but in fuction fuction scoped
+//for (let i=0;i<10;i++){
+//    if(i%2==0){
+//       console.log(i);   
+//    }
+//}
+//console.log("value is "+i)
 
 
